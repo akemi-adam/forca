@@ -1,0 +1,51 @@
+body {
+    background: rgb(217,227,55);
+    background: linear-gradient(90deg, rgba(217,227,55,1) 8%, rgba(133,244,46,1) 86%);
+}
+
+.sessions {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+}
+
+.center {
+	width: auto;
+	transform: translate(-50%, -50%);
+}
+
+.show {
+    margin-bottom: 40px;
+}
+
+.image-forca {
+    width: 25%;
+}
+
+.send-word {
+	left: 86%;
+}
+
+.button-icon {
+    padding-top: 2px;
+    width: 30px;
+}
+
+.insert-word, .show-word, .center {
+    left: 50%;
+}
+
+.send-word,.insert-word, .center {
+	top: 50%;
+}
+
+.insert-word, .send-word, .show-word {
+    display: inline;
+}
+
+.center, .insert-word, .send-word, .show-word {
+    position: absolute;
+}
+
+p.show-word {
+    font-size: 30px;
+}

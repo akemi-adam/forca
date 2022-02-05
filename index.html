@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="center">
+        <div class="show">
+            <img src="images/forca1.png" alt="Imagem de uma forca" class="image-forca" id="image-forca">
+            <p class="show-word" id="show-word"></p>
+            <form action="#" method="post" id="send-word-form" onsubmit="return false">
+                <input type="password" class="insert-word" placeholder="Insira uma palavra">
+                <button type="submit" class="send-word" onclick="encodeWord()">Enviar</button>
+            </form>
+        </div>
+        <div class="keyboard">
+            <section class="sessions">
+                <button type="submit" class="send-letter" onclick="setLetter('a', 0)">A</button>
+                <button type="submit" class="send-letter" onclick="setLetter('b', 1)">B</button>
+                <button type="submit" class="send-letter" onclick="setLetter('c', 2)">C</button>
+                <button type="submit" class="send-letter" onclick="setLetter('d', 3)">D</button>
+                <button type="submit" class="send-letter" onclick="setLetter('e', 4)">E</button>
+            </section>
+            <section class="sessions">
+                <button type="submit" class="send-letter" onclick="setLetter('f', 5 )">F</button>
+                <button type="submit" class="send-letter" onclick="setLetter('g', 6)">G</button>
+                <button type="submit" class="send-letter" onclick="setLetter('h', 7)">H</button>
+                <button type="submit" class="send-letter" onclick="setLetter('i', 8)">I</button>
+                <button type="submit" class="send-letter" onclick="setLetter('j', 9)">J</button>
+            </section>
+            <section class="sessions">
+                <button type="submit" class="send-letter" onclick="setLetter('k', 10)">K</button>
+                <button type="submit" class="send-letter" onclick="setLetter('l', 11)">L</button>
+                <button type="submit" class="send-letter" onclick="setLetter('m', 12)">M</button>
+                <button type="submit" class="send-letter" onclick="setLetter('n', 13)">N</button>
+                <button type="submit" class="send-letter" onclick="setLetter('o', 14)">O</button>
+            </section>
+            <section class="sessions">
+                <button type="submit" class="send-letter" onclick="setLetter('p', 15)">P</button>
+                <button type="submit" class="send-letter" onclick="setLetter('q', 16)">Q</button>
+                <button type="submit" class="send-letter" onclick="setLetter('r', 17)">R</button>
+                <button type="submit" class="send-letter" onclick="setLetter('s', 18)">S</button>
+                <button type="submit" class="send-letter" onclick="setLetter('t', 19)">T</button>
+            </section>
+            <section class="sessions">
+                <button type="submit" class="send-letter" onclick="setLetter('u', 20)">U</button>
+                <button type="submit" class="send-letter" onclick="setLetter('v', 21)">V</button>
+                <button type="submit" class="send-letter" onclick="setLetter('w', 22)">W</button>
+                <button type="submit" class="send-letter" onclick="setLetter('x', 23)">X</button>
+                <button type="submit" class="send-letter" onclick="setLetter('y', 24)">Y</button>
+            </section>
+            <section class="sessions">
+                <button type="submit" class="send-letter" onclick="setLetter('z', 25)">Z</button>
+                <button type="submit" class="send-letter" onclick="setLetter('á', 26)">Á</button>
+                <button type="submit" class="send-letter" onclick="setLetter('ã', 27)">Ã</button>
+                <button type="submit" class="send-letter" onclick="setLetter('â', 28)">Â</button>
+                <button type="submit" class="send-letter" onclick="setLetter('é', 29)">É</button>
+            </section>
+            <section class="sessions">
+                <button type="submit" class="send-letter" onclick="setLetter('ó', 30)">Ó</button>
+                <button type="submit" class="send-letter" onclick="setLetter('õ', 31)">Õ</button>
+                <button type="submit" class="send-letter" onclick="setLetter('ô', 32)">Ô</button>
+                <button type="submit" class="send-letter" onclick="setLetter('ú', 33)">Ú</button>
+                <button type="submit" class="send-letter" onclick="setLetter('ç', 34)">Ç</button>
+            </section>
+        </div>
+    </div>
+    <button type="submit" onclick="music()"><img src="images/music_icon_1.png" alt="Ícone de um alto-falante emitindo som" class="button-icon" id="music-icon"></button>
+    <button type="submit" onclick="location.reload()"><img src="images/restart_icon.png" alt="Ícone de reiniciar" class="button-icon"></button>
+    
+    <!-- Scripts -->
+    
+    <script src="JS/index.js"></script>
+</body>
+</html>
