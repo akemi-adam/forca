@@ -1,6 +1,6 @@
 # Jogo da forca (🇵🇹-🇧🇷)
 
-Um <a href="https://mosiah-adam.github.io/forca/" target="_blank">jogo da forca</a> simples feito com HTML, CSS e JS.
+Um <a href="https://mosiah-adam.github.io/forca/">jogo da forca</a> simples feito com HTML, CSS e JS.
 
 # Sobre o jogo (🇵🇹-🇧🇷)
 
@@ -10,7 +10,7 @@ O conceito do jogo é o mesmo do clássico jogo da forca que todo mundo já jogo
 
 # Hangman game (🇺🇸)
 
-A simple <a href="https://mosiah-adam.github.io/forca/" target="_blank">hangman made</a> with HTML, CSS and JS.
+A simple <a href="https://mosiah-adam.github.io/forca/">hangman made</a> with HTML, CSS and JS.
 
 # About the game (🇺🇸)
 
